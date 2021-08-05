@@ -5,7 +5,7 @@ var logoChanged = false;
 
 for (var thread of findThreadsParent) {
     if(counterToShowOnlyThreads <= 15) {
-        if(thread.getAttribute("data-author") === "Chloe Price" && logoChanged == false) {
+        if(thread.getAttribute("data-author") === "Linux Forever" && logoChanged == false) {
             var iconElement = document.getElementsByClassName("p-header-logo p-header-logo--image"); 
             var iconParent = iconElement.item("a");
             var iconChild = iconElement.item("a").childNodes[1];
