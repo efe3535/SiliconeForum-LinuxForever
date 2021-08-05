@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Dinicone",
+  "version": "1.0",
+
+  "description": "Linux Forever konusu gördğü anda şak, Dinicone!",
+
+  "icons": {
+    "192": "icons/siliconegreen.png"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["lfcone.js"],
+      "matches": ["*://*.silicone-forum.com/*","*://silicone-forum.com/*"]
+    }
+  ],
+
+  "permissions": [
+      "*://*.silicone-forum.com/*"
+  ]
+}
