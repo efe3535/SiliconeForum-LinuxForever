@@ -5,8 +5,7 @@ var logoChanged = false;
 
 for (var thread of findThreadsParent) {
     if(counterToShowOnlyThreads <= 15) {
-        if(thread.getAttribute("data-author") === "Linux Forever" && logoChanged == false) {
-            alert("Eyvaah, Linux Forever konu açmış! Kaçın beyler...");
+        if(thread.getAttribute("data-author") === "Chloe Price" && logoChanged == false) {
             var iconElement = document.getElementsByClassName("p-header-logo p-header-logo--image"); 
             var iconParent = iconElement.item("a");
             var iconChild = iconElement.item("a").childNodes[1];
@@ -15,6 +14,7 @@ for (var thread of findThreadsParent) {
             iconParent.appendChild(diniconeLogo);
             iconChild.remove();
             logoChanged = true;
+            alert("Eyvaah, Linux Forever konu açmış! Kaçın beyler...");
         }
         counterToShowOnlyThreads++;
     }
