@@ -13,11 +13,11 @@
   "content_scripts": [
     {
       "js": ["lfcone.js"],
-      "matches": ["*://*.silicone-forum.com/*","*://silicone-forum.com/*"]
+      "matches": ["*://*.silicone-forum.com/","*://silicone-forum.com/"]
     }
   ],
 
   "permissions": [
-      "*://*.silicone-forum.com/*"
+      "*://*.silicone-forum.com/"
   ]
 }
